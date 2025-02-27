@@ -227,9 +227,7 @@ $modulo = $_REQUEST['modulo'] ?? '';
   <script src="https://cdn.datatables.net/select/3.0.0/js/select.dataTables.js"></script>
   <script src="https://cdn.datatables.net/datetime/1.5.5/js/dataTables.dateTime.min.js"></script>
   <script src="js/dataTables.editor.js"></script>
-  <script src="js/dataTables.editor.min.js"></script>
   <script src="js/editor.dataTables.js"></script>
-  <script src="js/editor.dataTables.min.js"></script>
 
   <script>
   $(function () {
