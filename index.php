@@ -17,7 +17,18 @@
     <link rel="stylesheet" href="admin/plugins/daterangepicker/daterangepicker.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+<<<<<<< HEAD
 
+=======
+<?php
+    session_start();
+    $accion=$_REQUEST['accion']??'';
+    if($accion=='cerrar'){
+        session_destroy();
+        header("Refresh:0");
+    }
+?>
+>>>>>>> d94c2e2 (26)
 </head>
 
 <body>
@@ -27,6 +38,7 @@ $con = mysqli_connect($host, $user, $pass, $db);
 ?>
     <div class="container">
         <div class="row">
+<<<<<<< HEAD
             <div class="col-12">
                 <!-- Navbar -->
                 <nav class="navbar navbar-expand navbar-dark">
@@ -94,6 +106,11 @@ $con = mysqli_connect($host, $user, $pass, $db);
                     </ul>
                 </nav>
                 <?php
+=======
+            <div class="col-12">                
+                <?php
+                include_once "menu.php";
+>>>>>>> d94c2e2 (26)
                 $modulo=$_REQUEST['modulo']??'';
                 if($modulo=="productos" || $modulo=="" ){
                     include_once "productos.php";
@@ -104,6 +121,15 @@ $con = mysqli_connect($host, $user, $pass, $db);
                 if( $modulo=="carrito" ){
                     include_once "carrito.php";
                 }
+<<<<<<< HEAD
+=======
+                if( $modulo=="envio" ){
+                    include_once "envio.php";
+                }
+                if( $modulo=="pasarela" ){
+                    include_once "pasarela.php";
+                }
+>>>>>>> d94c2e2 (26)
                 ?>
             </div>
         </div>
