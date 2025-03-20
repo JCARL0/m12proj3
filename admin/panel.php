@@ -16,7 +16,7 @@ $modulo = $_REQUEST['modulo'] ?? '';
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My ecommerce by pn</title>
+  <title>Shoppy</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -62,7 +62,6 @@ $modulo = $_REQUEST['modulo'] ?? '';
         </li>
       </ul>
 
-
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
         <!-- Messages Dropdown Menu -->
@@ -71,7 +70,7 @@ $modulo = $_REQUEST['modulo'] ?? '';
           <i class="far fa-user"></i>
         </a>
         <a class="nav-link text-danger" href="panel.php?modulo=&sesion=cerrar" title="Cerrar sesion">
-          <i class="fas fa-door-closed    "></i>
+          <i class="fas fa-door-closed"></i>
         </a>
 
       </ul>
@@ -84,7 +83,7 @@ $modulo = $_REQUEST['modulo'] ?? '';
       <a href="#" class="brand-link">
         <img src="dist/img/pn icono.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
           style="opacity: .8">
-        <span class="brand-text font-weight-light">My ecommerce</span>
+        <span class="brand-text font-weight-light">Shoppy</span>
       </a>
 
       <!-- Sidebar -->
@@ -218,10 +217,8 @@ $modulo = $_REQUEST['modulo'] ?? '';
   <!-- <script src="plugins/datatables/jquery.dataTables.js"></script>
   <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script> -->
 
-
-
   <script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
-  <script src="https://cdn.datatables.net/buttons/3.2.2/js/dataTables.buttons.js">/ script >
+  <script src="https://cdn.datatables.net/buttons/3.2.2/js/dataTables.buttons.js"></script>
   <script src="https://cdn.datatables.net/buttons/3.2.2/js/buttons.dataTables.js"></script>
   <script src="https://cdn.datatables.net/select/3.0.0/js/dataTables.select.js"></script>
   <script src="https://cdn.datatables.net/select/3.0.0/js/select.dataTables.js"></script>

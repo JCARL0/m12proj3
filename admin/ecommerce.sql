@@ -81,7 +81,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `email`, `pass`, `nombre`) VALUES
-(1, 'info@programadornovato.com', 'e10adc3949ba59abbe56e057f20f883e', 'eugenio');
+(1, 'admin@admin.admin', 'e10adc3949ba59abbe56e057f20f883e', 'admin');
 
 -- --------------------------------------------------------
 

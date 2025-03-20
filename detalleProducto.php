@@ -51,7 +51,7 @@ $rowProducto = mysqli_fetch_assoc($resProducto);
 
                 <div class="bg-gray py-2 px-3 mt-4">
                     <h2 class="mb-0">
-                    $<?php echo number_format($rowProducto['precio'], 2) ?>
+                    € <?php echo number_format($rowProducto['precio'], 2) ?>
                     </h2>
                 </div>
 
@@ -67,7 +67,7 @@ $rowProducto = mysqli_fetch_assoc($resProducto);
                     </button>
                 </div>
                 <div class="mt-4">
-                    Catnidad
+                    Cantidad
                     <input type="number" class="form-control" id="cantidadProducto" value="1">
                 </div>
 
