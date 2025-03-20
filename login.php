@@ -23,12 +23,12 @@
 <body class="hold-transition login-page">
   <div class="login-box">
     <div class="login-logo">
-      <b>My</b>ecommerce
+      <b>Shoppy</b>
     </div>
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Logueate</p>
+        <p class="login-box-msg">Login</p>
         <?php
         if (isset($_REQUEST['login'])) {
           session_start();
@@ -74,8 +74,8 @@
           <div class="row">
             <!-- /.col -->
             <div class="col-12">
-              <button type="submit" class="btn btn-primary" name="login">Loguearse</button>
-              <a href="registro.php" class="text-success float-right" >Registrarse</a>
+              <button type="submit" class="btn btn-primary" name="login">Login</button>
+              <a href="registro.php" class="text-success float-right" >Sign in</a>
             </div>
             <!-- /.col -->
           </div>

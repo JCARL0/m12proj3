@@ -28,7 +28,7 @@
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Logueate</p>
+        <p class="login-box-msg">Login</p>
         <?php
         if (isset($_REQUEST['login'])) {
           session_start();

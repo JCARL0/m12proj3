@@ -45,11 +45,11 @@
                                 if (isset($_SESSION['idCliente']) == false) {
                                 ?>
                                     <a href="login.php" class="dropdown-item">
-                                        <i class="fas fa-door-open mr-2 text-primary"></i>Loguearse
+                                        <i class="fas fa-door-open mr-2 text-primary"></i>Login
                                     </a>
                                     <div class="dropdown-divider"></div>
                                     <a href="registro.php" class="dropdown-item">
-                                        <i class="fas fa-sign-in-alt mr-2 text-primary"></i>Registrarse
+                                        <i class="fas fa-sign-in-alt mr-2 text-primary"></i>Signin
                                     </a>
                                 <?php
                                 } else {
@@ -59,7 +59,7 @@
                                     </a>
                                     <form action="index.php" method="post">
                                         <button name="accion" class="btn btn-danger dropdown-item" type="submit" value="cerrar">
-                                            <i class="fas fa-door-closed text-danger mr-2"></i>Cerrar sesion
+                                            <i class="fas fa-door-closed text-danger mr-2"></i>Logout
                                         </button>
                                     </form>
                                 <?php
