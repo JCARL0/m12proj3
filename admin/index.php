@@ -48,7 +48,7 @@
           } else {
         ?>
             <div class="alert alert-danger" role="alert">
-              Error de login <img src="images/haha.jpg" width="200">
+              Error de login <img src="images/haha.gif" width="200">
             </div>
         <?php
           }

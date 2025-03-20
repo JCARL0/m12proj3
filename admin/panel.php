@@ -129,13 +129,6 @@ $modulo = $_REQUEST['modulo'] ?? '';
                     <p>Productos</p>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a href="panel.php?modulo=ventas"
-                    class="nav-link <?php echo ($modulo == "ventas") ? " active " : " "; ?>">
-                    <i class="fa fa-table nav-icon" aria-hidden="true"></i>
-                    <p>Ventas</p>
-                  </a>
-                </li>
               </ul>
         </nav>
         <!-- /.sidebar-menu -->

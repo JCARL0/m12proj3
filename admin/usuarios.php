@@ -8,7 +8,7 @@ if(isset($_REQUEST['idBorrar'])){
     if($res){
         ?>
         <div class="alert alert-warning float-right" role="alert">
-            Usuario borrado con exito (no tienes corazon)
+            Borrando Usuario
         </div>
         <?php
     }else{

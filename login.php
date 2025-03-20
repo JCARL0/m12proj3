@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My ecommerce</title>
+  <title>Shoppy</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -48,7 +48,7 @@
           } else {
         ?>
             <div class="alert alert-danger" role="alert">
-              Error de login <img src="admin/images/haha.jpg" width="200">
+              Error de login <img src="admin/images/haha.gif" width="200">
             </div>
         <?php
           }
