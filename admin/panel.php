@@ -48,6 +48,7 @@ $modulo = $_REQUEST['modulo'] ?? '';
   <link rel="stylesheet" href="https://cdn.datatables.net/datetime/1.5.5/css/dataTables.dateTime.min.css">
   <link rel="stylesheet" href="css/editor.dataTables.css">
   <link rel="stylesheet" href="css/editor.dataTables.min.css">
+  
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -80,7 +81,7 @@ $modulo = $_REQUEST['modulo'] ?? '';
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
-      <a href="#" class="brand-link">
+      <a href="http://localhost/M12PROJ3/ecommerce/" class="brand-link">
         <img src="dist/img/pn icono.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
           style="opacity: .8">
         <span class="brand-text font-weight-light">Shoppy</span>
