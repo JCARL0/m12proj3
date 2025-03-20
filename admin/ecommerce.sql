@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-03-2025 a las 17:59:54
+-- Tiempo de generación: 20-03-2025 a las 18:30:02
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -71,6 +71,23 @@ CREATE TABLE `files` (
   `system_path` varchar(250) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Volcado de datos para la tabla `files`
+--
+
+INSERT INTO `files` (`id`, `filename`, `filesize`, `web_path`, `system_path`) VALUES
+(7, '1.jpg', 31491, '/ecommerce/upload/7.jpg', 'C:/xampp/htdocs/ecommerce/upload/7.jpg'),
+(8, '2.jpg', 36427, '/ecommerce/upload/8.jpg', 'C:/xampp/htdocs/ecommerce/upload/8.jpg'),
+(9, '3.jpg', 11612, '/ecommerce/upload/9.jpg', 'C:/xampp/htdocs/ecommerce/upload/9.jpg'),
+(10, '4.jpg', 11860, '/ecommerce/upload/10.jpg', 'C:/xampp/htdocs/ecommerce/upload/10.jpg'),
+(11, '5.jpg', 11768, '/ecommerce/upload/11.jpg', 'C:/xampp/htdocs/ecommerce/upload/11.jpg'),
+(12, '6.jpg', 11516, '/ecommerce/upload/12.jpg', 'C:/xampp/htdocs/ecommerce/upload/12.jpg'),
+(13, '7.jpg', 7606, '/ecommerce/upload/13.jpg', 'C:/xampp/htdocs/ecommerce/upload/13.jpg'),
+(14, '8.jpg', 13755, '/ecommerce/upload/14.jpg', 'C:/xampp/htdocs/ecommerce/upload/14.jpg'),
+(15, '9.jpg', 10393, '/ecommerce/upload/15.jpg', 'C:/xampp/htdocs/ecommerce/upload/15.jpg'),
+(16, '10.jpg', 6352, '/ecommerce/upload/16.jpg', 'C:/xampp/htdocs/ecommerce/upload/16.jpg'),
+(17, '11.jpg', 13513, '/ecommerce/upload/17.jpg', 'C:/xampp/htdocs/ecommerce/upload/17.jpg');
+
 -- --------------------------------------------------------
 
 --
@@ -83,6 +100,23 @@ CREATE TABLE `productos` (
   `precio` double NOT NULL,
   `existencia` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `productos`
+--
+
+INSERT INTO `productos` (`id`, `nombre`, `precio`, `existencia`) VALUES
+(7, 'Producto 1', 1, 1),
+(8, 'Producto 2', 2, 2),
+(9, 'Producto 3', 3, 3),
+(10, 'Producto 4', 4, 4),
+(11, 'Producto 5', 5, 5),
+(12, 'Producto 6', 6, 6),
+(13, 'Producto 7', 7, 7),
+(14, 'Producto 8', 8, 8),
+(15, 'Producto 9', 9, 9),
+(16, 'Producto 10', 10, 10),
+(17, 'Produucto 11', 11, 11);
 
 -- --------------------------------------------------------
 
@@ -104,7 +138,18 @@ INSERT INTO `productos_files` (`producto_id`, `file_id`) VALUES
 (2, 2),
 (3, 3),
 (4, 4),
-(5, 5);
+(5, 5),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10),
+(11, 11),
+(12, 12),
+(13, 13),
+(14, 14),
+(15, 15),
+(16, 16),
+(17, 17);
 
 -- --------------------------------------------------------
 
@@ -231,13 +276,13 @@ ALTER TABLE `detalleventas`
 -- AUTO_INCREMENT de la tabla `files`
 --
 ALTER TABLE `files`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT de la tabla `recibe`

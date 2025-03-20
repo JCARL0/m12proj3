@@ -25,7 +25,7 @@ $rowVenta = mysqli_fetch_assoc($resVenta);
 <?php ob_start(); ?>
 <div>
     <img src="admin/images/pn.png" style="width: 30px;">
-    My ecommerce
+    Shoppy
 </div>
 
 <table style="width: 750px;margin-top: 20px;">
